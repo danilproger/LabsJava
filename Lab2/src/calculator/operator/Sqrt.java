@@ -1,0 +1,17 @@
+package calculator.operator;
+
+import context.Context;
+import java.util.ArrayList;
+
+public class Sqrt implements Operator {
+    @Override
+    public int getArgsAmount() {
+        return 0;
+    }
+
+    @Override
+    public void execute(Context context, ArrayList<String> args) {
+        Double result = Math.sqrt(context.getNumbers().pop());
+        context.getNumbers().push(result);
+    }
+}

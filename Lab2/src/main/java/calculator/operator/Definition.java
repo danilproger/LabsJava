@@ -5,14 +5,10 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class Definition implements Operator {
-    @Override
-    public int getArgsAmount() {
-        return 2;
-    }
 
     @Override
     public void execute(Context context, List<String> args) {
-        if(args.size() != getArgsAmount()) throw new IllegalArgumentException();
+        if(args.size() != 2) throw new IllegalArgumentException();
 
         String key = args.get(0);
         double value = Double.parseDouble(args.get(1));

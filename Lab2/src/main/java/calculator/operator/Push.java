@@ -5,14 +5,10 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class Push implements Operator {
-    @Override
-    public int getArgsAmount() {
-        return 1;
-    }
 
     @Override
     public void execute(Context context, List<String> args) {
-        if(args.size() < getArgsAmount()) throw new IllegalArgumentException();
+        if(args.size() < 1) throw new IllegalArgumentException();
 
         double value;
 

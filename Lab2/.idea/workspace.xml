@@ -2,58 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1c22f3-27ef-49ce-8f3b-930ce8c996b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/OperatorFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Addition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Definition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Multiplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Operator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Pop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Print.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Push.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Sqrt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operator/Subtraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/calculator/operators.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/context/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/main/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/OperatorFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Addition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Definition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Division.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Multiplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Pop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Push.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Sqrt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operator/Subtraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/operators.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/context/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/context/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/calculator_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/calculator_logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/context/Context.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +28,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,17 +79,114 @@
       <recent name="D:\Programming\Intellij projects\Lab2\src\main\java\context" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.CalculatorTests">
+    <configuration name="CalculatorTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTests.testArithmetic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTests.testArithmetic&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTests.testDiv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTests.testDiv&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTests.testMult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTests.testMult&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTests.testSqrt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTests.testSqrt&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.CalculatorTests" />
+        <item itemvalue="Gradle.CalculatorTests.testArithmetic" />
+        <item itemvalue="Gradle.CalculatorTests.testSqrt" />
+        <item itemvalue="Gradle.CalculatorTests.testDiv" />
+        <item itemvalue="Gradle.CalculatorTests.testMult" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583314238156</updated>
-      <workItem from="1583314241462" duration="5201000" />
+      <workItem from="1583314241462" duration="8918000" />
     </task>
     <servers />
   </component>
@@ -141,22 +212,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1244" y="366" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1583316395133" />
-    <state width="1879" height="211" key="GridCell.Tab.0.bottom" timestamp="1583329871766">
+    <state width="1879" height="211" key="GridCell.Tab.0.bottom" timestamp="1583342994712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583329871766" />
-    <state width="1879" height="211" key="GridCell.Tab.0.center" timestamp="1583329871766">
+    <state width="1879" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583342994712" />
+    <state width="1879" height="211" key="GridCell.Tab.0.center" timestamp="1583342994712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583329871766" />
-    <state width="1879" height="211" key="GridCell.Tab.0.left" timestamp="1583329871766">
+    <state width="1879" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583342994712" />
+    <state width="1879" height="211" key="GridCell.Tab.0.left" timestamp="1583342994712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583329871766" />
-    <state width="1879" height="211" key="GridCell.Tab.0.right" timestamp="1583329871766">
+    <state width="1879" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583342994712" />
+    <state width="1879" height="211" key="GridCell.Tab.0.right" timestamp="1583342994712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583329871766" />
+    <state width="1879" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583342994712" />
     <state x="533" y="97" key="new project wizard" timestamp="1583314448315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

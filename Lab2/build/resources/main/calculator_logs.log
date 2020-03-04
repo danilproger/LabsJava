@@ -1,4 +1,18 @@
-мар. 04, 2020 8:48:54 PM Main main
+мар. 04, 2020 8:51:11 PM Main main
 INFO: Initial log
-мар. 04, 2020 8:48:54 PM calculator.OperatorFactory <init>
+мар. 04, 2020 8:51:11 PM calculator.OperatorFactory <init>
 INFO: Operator factory was created!
+мар. 04, 2020 8:51:11 PM calculator.operator.Push execute
+INFO: pushed value = -1.0
+мар. 04, 2020 8:51:11 PM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 04, 2020 8:51:11 PM calculator.operator.Sqrt execute
+WARNING: arg: -1.0 < 0, arg was pushed
+мар. 04, 2020 8:51:11 PM calculator.operator.Sqrt execute
+INFO: sqrt = -1.0
+мар. 04, 2020 8:51:11 PM calculator.Calculator calculate
+INFO: operator SQRT was created and executed
+мар. 04, 2020 8:51:11 PM calculator.operator.Print execute
+INFO: printed value = -1.0
+мар. 04, 2020 8:51:11 PM calculator.Calculator calculate
+INFO: operator PRINT was created and executed

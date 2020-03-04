@@ -12,6 +12,10 @@ public class Context {
         definitions = new HashMap<>();
     }
 
+    public int getStackSize() {
+        return numbers.size();
+    }
+
     public void push(double value) {
         numbers.push(value);
     }
@@ -32,7 +36,7 @@ public class Context {
         return definitions.get(key);
     }
 
-    public int getStackSize() {
-        return numbers.size();
+    public boolean contains(String key) {
+        return definitions.containsKey(key);
     }
 }

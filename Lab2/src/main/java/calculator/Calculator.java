@@ -14,6 +14,10 @@ public class Calculator {
         context = new Context();
     }
 
+    public Calculator(Context context){
+        this.context = context;
+    }
+
     public void calculate(String fileName) throws IOException {
         Scanner scanner = fileName.equals("") ? new Scanner(System.in) : new Scanner(new File(fileName));
 

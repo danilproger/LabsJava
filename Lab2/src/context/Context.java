@@ -7,16 +7,28 @@ public class Context {
     private Stack<Double> numbers;
     private HashMap<String, Double> definitions;
 
-    Context(){
+    public Context() {
         numbers = new Stack<>();
         definitions = new HashMap<>();
     }
 
-    public Stack<Double> getNumbers() {
-        return numbers;
+    public void push(double value) {
+        numbers.push(value);
     }
 
-    public HashMap<String, Double> getDefinitions() {
-        return definitions;
+    public double pop() {
+        return numbers.pop();
+    }
+
+    public double peek() {
+        return numbers.peek();
+    }
+
+    public void put(String key, double value) {
+        definitions.put(key, value);
+    }
+
+    public double get(String key) {
+        return definitions.get(key);
     }
 }

@@ -1,20 +1,21 @@
 package calculator.operator;
 
 import context.Context;
+
 import java.util.EmptyStackException;
 import java.util.List;
 import java.util.logging.Logger;
 
 public class Subtraction implements Operator {
 
-    @Override
-    public void execute(Context context, List<String> args) {
-        if (context.getStackSize() < 2) throw new EmptyStackException();
+	@Override
+	public void execute(Context context, List<String> args) {
+		if (context.getStackSize() < 2) throw new EmptyStackException();
 
-        double left = context.pop();
-        double right = context.pop();
+		double left = context.pop();
+		double right = context.pop();
 
-        context.push(right - left);
-        Logger.getLogger("CalculatorLogger").info("sub = " + (right - left));
-    }
+		context.push(right - left);
+		Logger.getLogger("CalculatorLogger").info("sub = " + (right - left));
+	}
 }

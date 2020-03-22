@@ -1,28 +1,29 @@
 package calculator.operator;
 
 import context.Context;
+
 import java.util.List;
 import java.util.logging.Logger;
 
 public class Push implements Operator {
 
-    @Override
-    public void execute(Context context, List<String> args) {
-        if(args.size() < 1) throw new IllegalArgumentException();
+	@Override
+	public void execute(Context context, List<String> args) {
+		if (args.size() < 1) throw new IllegalArgumentException();
 
-        double value;
+		double value;
 
-        try {
-            value = Double.parseDouble(args.get(0));
-        } catch (NumberFormatException e) {
-            try {
-                value = context.get(args.get(0));
-            } catch (NullPointerException ex) {
-                throw new IllegalArgumentException();
-            }
-        }
+		try {
+			value = Double.parseDouble(args.get(0));
+		} catch (NumberFormatException e) {
+			try {
+				value = context.get(args.get(0));
+			} catch (NullPointerException ex) {
+				throw new IllegalArgumentException();
+			}
+		}
 
-        context.push(value);
-        Logger.getLogger("CalculatorLogger").info("pushed value = " + value);
-    }
+		context.push(value);
+		Logger.getLogger("CalculatorLogger").info("pushed value = " + value);
+	}
 }

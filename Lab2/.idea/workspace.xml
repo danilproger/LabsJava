@@ -2,28 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1c22f3-27ef-49ce-8f3b-930ce8c996b0" name="Default Changelist" comment="Ref code">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/OperatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/OperatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Pop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Push.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Push.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Sqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/operator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/operator/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/context/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/operators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/operators.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/OperatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/OperatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Definition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Definition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Pop.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Pop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Push.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Push.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Sqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/calculator/operator/Subtraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/context/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/context/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/calculator_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/calculator_logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/operators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/operators.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/calculator_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/calculator_logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/in.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +67,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -203,20 +208,23 @@
       <workItem from="1583314241462" duration="9485000" />
       <workItem from="1584904712256" duration="287000" />
       <workItem from="1584905200164" duration="238000" />
+      <workItem from="1587325682883" duration="376000" />
+      <workItem from="1587326171846" duration="259000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ref code" />
     <option name="LAST_COMMIT_MESSAGE" value="Ref code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="134" width="606" height="770" key="#Main" timestamp="1584905098187">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="656" y="134" width="663" height="769" key="#Main" timestamp="1587325956164">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state x="656" y="134" width="663" height="769" key="#Main/0.0.1920.1034@0.0.1920.1034" timestamp="1587325956164" />
     <state x="656" y="134" width="606" height="770" key="#Main/0.0.1920.1036@0.0.1920.1036" timestamp="1584905098187" />
     <state x="802" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584904739009">
       <screen x="0" y="0" width="1920" height="1036" />
@@ -234,33 +242,39 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="744" y="274" key="FileChooserDialogImpl/0.0.1920.1036@0.0.1920.1036" timestamp="1584905418149" />
-    <state width="1346" height="234" key="GridCell.Tab.0.bottom" timestamp="1584904970658">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1587326430226">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1587326430226" />
     <state width="1346" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1584904970658" />
     <state width="1879" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583343438435" />
-    <state width="1346" height="234" key="GridCell.Tab.0.center" timestamp="1584904970657">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1874" height="262" key="GridCell.Tab.0.center" timestamp="1587326430225">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1587326430225" />
     <state width="1346" height="234" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1584904970657" />
     <state width="1879" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583343438434" />
-    <state width="1346" height="234" key="GridCell.Tab.0.left" timestamp="1584904970657">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1874" height="262" key="GridCell.Tab.0.left" timestamp="1587326430225">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1587326430225" />
     <state width="1346" height="234" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1584904970657" />
     <state width="1879" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583343438434" />
-    <state width="1346" height="234" key="GridCell.Tab.0.right" timestamp="1584904970658">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1874" height="262" key="GridCell.Tab.0.right" timestamp="1587326430225">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state width="1874" height="262" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1587326430225" />
     <state width="1346" height="234" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1584904970658" />
     <state width="1879" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583343438435" />
-    <state x="457" y="151" width="1007" height="733" key="SettingsEditor" timestamp="1584905437372">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="457" y="151" width="1007" height="733" key="SettingsEditor" timestamp="1587326221386">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state x="457" y="151" width="1007" height="733" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1587326221386" />
     <state x="457" y="151" width="1007" height="733" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1584905437372" />
-    <state x="533" y="97" key="new project wizard" timestamp="1583314448315">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="533" y="96" key="new project wizard" timestamp="1587326056493">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state x="533" y="96" key="new project wizard/0.0.1920.1034@0.0.1920.1034" timestamp="1587326056493" />
     <state x="533" y="97" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583314448315" />
   </component>
 </project>

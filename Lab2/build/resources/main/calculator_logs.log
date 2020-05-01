@@ -1,0 +1,20 @@
+мар. 05, 2020 12:37:06 AM Main setUpLogger
+INFO: Initial log
+мар. 05, 2020 12:37:06 AM calculator.OperatorFactory <init>
+INFO: Operator factory was created!
+мар. 05, 2020 12:37:06 AM calculator.operator.Push execute
+INFO: pushed value = -1.0
+мар. 05, 2020 12:37:06 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:37:06 AM calculator.operator.Sqrt execute
+WARNING: arg: -1.0 < 0, arg was pushed
+мар. 05, 2020 12:37:06 AM calculator.operator.Sqrt execute
+INFO: sqrt = -1.0
+мар. 05, 2020 12:37:06 AM calculator.Calculator calculate
+INFO: operator SQRT was created and executed
+мар. 05, 2020 12:37:06 AM calculator.operator.Print execute
+INFO: printed value = -1.0
+мар. 05, 2020 12:37:06 AM calculator.Calculator calculate
+INFO: operator PRINT was created and executed
+мар. 05, 2020 12:37:06 AM calculator.OperatorFactory createOperator
+WARNING: operator AUE was not found

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-04T17:29:55" hostname="DESKTOP-4GC0VVG" time="0.108">
+  <properties/>
+  <testcase name="testDefinition" classname="CalculatorTests" time="0.058"/>
+  <testcase name="testAdd" classname="CalculatorTests" time="0.006"/>
+  <testcase name="testDiv" classname="CalculatorTests" time="0.004"/>
+  <testcase name="testPop" classname="CalculatorTests" time="0.007"/>
+  <testcase name="testSub" classname="CalculatorTests" time="0.005"/>
+  <testcase name="testArithmetic" classname="CalculatorTests" time="0.014"/>
+  <testcase name="testPrint" classname="CalculatorTests" time="0.003"/>
+  <testcase name="testMult" classname="CalculatorTests" time="0.005"/>
+  <testcase name="testPush" classname="CalculatorTests" time="0.003"/>
+  <testcase name="testSqrt" classname="CalculatorTests" time="0.002"/>
+  <system-out><![CDATA[4.0
+]]></system-out>
+  <system-err><![CDATA[мар. 05, 2020 12:29:55 AM calculator.OperatorFactory <init>
+INFO: Operator factory was created!
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 3.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Definition execute
+INFO: definition 'A' = 4.0 was defined
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator DEFINE was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Definition execute
+INFO: definition 'B' = 5.0 was defined
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator DEFINE was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 5.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 5.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Addition execute
+INFO: sum = 9.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator + was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 225.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 15.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Division execute
+INFO: div = 15.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator / was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 2.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 3.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Pop execute
+INFO: popped value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator POP was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Pop execute
+INFO: popped value = 3.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator POP was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 9.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Subtraction execute
+INFO: sub = -5.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator - was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 5.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Multiplication execute
+INFO: mult = 20.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator * was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 90.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Subtraction execute
+INFO: sub = -70.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator - was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 10.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Division execute
+INFO: div = -7.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator / was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 23.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Addition execute
+INFO: sum = 16.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator + was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Sqrt execute
+INFO: sqrt = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator SQRT was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Print execute
+INFO: printed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PRINT was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 7.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 9.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Multiplication execute
+INFO: mult = 63.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator * was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 2.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 3.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 4.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Push execute
+INFO: pushed value = 256.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator PUSH was created and executed
+мар. 05, 2020 12:29:55 AM calculator.operator.Sqrt execute
+INFO: sqrt = 16.0
+мар. 05, 2020 12:29:55 AM calculator.Calculator calculate
+INFO: operator SQRT was created and executed
+]]></system-err>
+</testsuite>

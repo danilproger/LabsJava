@@ -1,18 +1,13 @@
 package viewcontroller;
 
-import config.GameConfig;
 import model.Model;
 import model.entities.Direction;
 import model.entities.GameStatus;
 import observer.Observer;
 import viewcontroller.view.*;
-
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowEvent;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 
 public class ViewController implements Observer {
 	private final Model model;

@@ -13,10 +13,9 @@ public class ViewController implements Observer {
 	private final Model model;
 	private final View view;
 
-	ViewController() {
-		view = new View();
-		model = new Model();
-		model.addObserver(this);
+	public ViewController(Model model, View view) {
+		this.view = view;
+		this.model = model;
 
 		initViews();
 	}
@@ -97,9 +96,5 @@ public class ViewController implements Observer {
 		if (model.getGameStatus() == GameStatus.GAME_OVER) {
 			view.setGameOverFrame(model.getScore());
 		}
-	}
-
-	public static void main(String[] args) {
-		new ViewController();
 	}
 }

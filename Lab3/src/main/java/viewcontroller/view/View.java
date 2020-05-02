@@ -1,11 +1,8 @@
 package viewcontroller.view;
 
 import config.GameConfig;
-import model.entities.Dot;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
 public class View extends JFrame {
 	private final StartFrame startFrame;
@@ -21,8 +18,7 @@ public class View extends JFrame {
 
 		setFocusable(true);
 		requestFocusInWindow();
-
-		setVisible(true);
+		setResizable(false);
 
 		startFrame = new StartFrame();
 		gameOverFrame = new GameOverFrame();

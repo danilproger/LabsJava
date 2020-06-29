@@ -1,48 +1,31 @@
-import parts.*;
-import production.*;
 
-import java.util.ArrayList;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import production.Factory;
 
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class Main {
+	private final static String TAG_STOP = "/s";
+	private final static Scanner in = new Scanner(System.in);
+
+	private final static Logger logger = Logger.getLogger(Main.class.getName());
+
 	public static void main(String[] args) throws Exception {
-		Storage<Body> bodyStorage = new Storage<>(10, Body.class);
-		Storage<Engine> engineStorage = new Storage<>(10, Engine.class);
-		Storage<Accessory> accessoryStorage = new Storage<>(10, Accessory.class);
-		Storage<Car> carStorage = new Storage<>(5, Car.class);
 
-		Supplier<Body> bodySupplier = new Supplier<>(bodyStorage, Body.class);
-		Supplier<Engine> engineSupplier = new Supplier<>(engineStorage, Engine.class);
-		ArrayList<Supplier<Accessory>> accessorySuppliers = new ArrayList<>();
+		FileHandler fileHandler = new FileHandler("src/main/resources/calculator_logs.log");
+		logger.addHandler(fileHandler);
+		fileHandler.setFormatter(new SimpleFormatter());
+		logger.info("Initial log");
 
-		for (int i = 0; i < 4; ++i) {
-			accessorySuppliers.add(new Supplier<>(accessoryStorage, Accessory.class));
-		}
-
-		ArrayList<Dealer> dealers = new ArrayList<>();
-		for (int i = 0; i < 5; i++) {
-			dealers.add(new Dealer(carStorage));
-		}
-
-		ExecutorService workers = Executors.newFixedThreadPool(5);
-
-		Factory factory = new Factory(
-				bodyStorage,
-				engineStorage,
-				accessoryStorage,
-				carStorage,
-				workers
-		);
-
-		carStorage.addObserver(factory);
-		Production production = new Production(
-				bodySupplier,
-				engineSupplier,
-				accessorySuppliers,
-				dealers
-		);
+		Factory production = new Factory();
 		production.startProduction();
+		if (in.nextLine().equals(TAG_STOP)) {
+			production.stopProduction();
+		}
 	}
+
+
 }

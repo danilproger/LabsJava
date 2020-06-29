@@ -1,54 +1,87 @@
 package production;
 
-import observer.Observer;
-import parts.Accessory;
-import parts.Body;
-import parts.Car;
-import parts.Engine;
+import parts.*;
+
 import java.util.ArrayList;
+import java.util.Properties;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
-public class Factory implements Observer {
-	private final Storage<Body> bodyStorage;
-	private final Storage<Engine> engineStorage;
-	private final Storage<Accessory> accessoryStorage;
-	private final Storage<Car> carStorage;
-	private final ExecutorService workers;
+public class Factory {
+	private final Supplier<Body> bodySupplier;
+	private final Supplier<Engine> engineSupplier;
+	private final ArrayList<Supplier<Accessory>> accessorySuppliers;
 
-	public Factory(Storage<Body> bodyStorage,
-				   Storage<Engine> engineStorage,
-				   Storage<Accessory> accessoryStorage,
-				   Storage<Car> carStorage,
-				   ExecutorService workers) {
-		this.bodyStorage = bodyStorage;
-		this.engineStorage = engineStorage;
-		this.accessoryStorage = accessoryStorage;
-		this.carStorage = carStorage;
-		this.workers = workers;
-	}
+	private final ArrayList<Dealer> dealers;
 
-	public synchronized Car createCar() {
-		Body body = bodyStorage.getPart();
-		Engine engine = engineStorage.getPart();
-		ArrayList<Accessory> accessories = new ArrayList<>();
+	private final ThreadPoolExecutor workers;
 
-		for (int i = 0; i < 5; i++) {
-			accessories.add(accessoryStorage.getPart());
+	public Factory() {
+		Storage<Body> bodyStorage = new Storage<>(10, Body.class);
+		Storage<Engine> engineStorage = new Storage<>(10, Engine.class);
+		Storage<Accessory> accessoryStorage = new Storage<>(10, Accessory.class);
+		Storage<Car> carStorage = new Storage<>(5, Car.class);
+
+		this.bodySupplier = new Supplier<>(bodyStorage, Body.class);
+		this.engineSupplier =  new Supplier<>(engineStorage, Engine.class);
+		this.accessorySuppliers = new ArrayList<>();
+		for (int i = 0; i < 4; ++i) {
+			accessorySuppliers.add(new Supplier<>(accessoryStorage, Accessory.class));
 		}
 
-		Car newCar = new Car(body, engine, accessories);
-		System.out.println("Car was created");
-		return newCar;
+		this.dealers = new ArrayList<>();
+		for (int i = 0; i < 5; i++) {
+			dealers.add(new Dealer(carStorage));
+		}
+
+		this.workers = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
+
+		carStorage.addObserver(new CarController(
+				bodyStorage,
+				engineStorage,
+				accessoryStorage,
+				carStorage,
+				workers
+		));
+
 	}
 
-	@Override
-	public void handleEvent() {
-		workers.execute(new Runnable() {
-			@Override
-			public void run() {
-				Car car = createCar();
-				carStorage.addPart(car);
-			}
-		});
+	public void startProduction() {
+		bodySupplier.start();
+		engineSupplier.start();
+		for (var i : accessorySuppliers) {
+			i.start();
+		}
+		for (var i : dealers) {
+			i.start();
+		}
+	}
+
+	public void stopProduction() throws InterruptedException {
+		bodySupplier.join();
+		engineSupplier.join();
+
+		for (var i : accessorySuppliers) {
+			i.join();
+		}
+
+		for (var i : dealers) {
+			i.join();
+		}
+
+		workers.shutdownNow();
+
+		bodySupplier.interrupt();
+		engineSupplier.interrupt();
+		for (var i : accessorySuppliers) {
+			i.interrupt();
+		}
+
+		for (var i : dealers) {
+			i.interrupt();
+		}
+		workers.awaitTermination(100, TimeUnit.NANOSECONDS);
 	}
 }
